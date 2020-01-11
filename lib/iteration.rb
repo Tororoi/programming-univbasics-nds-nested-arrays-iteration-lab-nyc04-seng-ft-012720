@@ -9,11 +9,11 @@ def join_ingredients(src)
   i = 0
   while i < src.length do
     inner = src[i]
-    new_string << "I love #{inner[0]} and #{inner[1]} on my pizza"
+    result << "I love #{inner[0]} and #{inner[1]} on my pizza"
     i += 1
   end
 
-  new_string
+  result
 end
 
 def find_greater_pair(src)
